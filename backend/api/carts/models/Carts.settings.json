@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "carts",
+  "info": {
+    "name": "carts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "user": {
+      "required": true,
+      "type": "string"
+    },
+    "cartItem": {
+      "required": true,
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "jwtSecret": "\"{{process.env.NEXT_PUBLIC_JWT_KEY}}\""
+}
